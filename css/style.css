@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+pre{
+    text-align: center;
+}
+.section-content{
+    background-color: blue;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+}
+.section-content>h2 {
+    margin: 0;
+    text-align: center;
+}
+.formula-img {
+    text-align: center;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance :none;
+    margin:0; }
+
+.tombol {
+    text-align: center;
+}
+.hitungreset {
+  color: white;
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.htngbtn {
+background-color: white;
+color : black;
+border : 2px solid green;
+border-radius: 5px;
+}
+
+.htngbtn:hover {
+    background-color: green;
+    color : white;
+}
+
+.rstbtn {
+    background-color: white;
+    color : black;
+    border : 2px solid red;
+    border-radius: 5px;
+}
+
+.rstbtn:hover {
+    background-color: red;
+    color :white;
+}
+.tombolHome{
+    text-align: right;
+}

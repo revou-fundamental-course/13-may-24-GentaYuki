@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculator Segitiga</title>
+    
+</head>
+<body>
+    <header>
+        <h1 id="home">Welcome to Calculator Segitiga</h1>
+        <br>
+        <pre>Hai Sobat, selamat datang di Project kalkulator Segitiga :]</pre>
+        <pre> Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</pre>
+    </header>
+    <section>
+        <div class="section-content">
+            <h2>Luas Segitiga</h2>
+        </div>
+        <br>
+            <div class="formula-img">
+                <img src="https://img.okezone.com/content/2023/12/07/624/2934721/kumpulan-rumus-segitiga-dalam-matematika-mudah-gm3tLD8t0Y.jpg" alt="gbrluassegitiga">
+                </div>
+
+            <p>keterangan:</p>
+            <p>a = Alas Segitiga</p>
+            <p>t= Tinggi Segitiga </p>
+            <table>
+                <tr>
+                    <td><label for="alas">Alas Segitiga:</label></td>
+                    <td><input id="alas" type="number" placeholder="masukan nilai Alas" min="0"></td>
+                </tr>
+                <tr>
+                    <td><label for="tinggi">Tinggi Segitiga:</label></td>
+                    <td><input id="tinggi" type="number" placeholder="masukan nilai Tinggi" min="0"></td>
+                </tr>
+            
+            </table>
+            <p>Luas Segitiga = 1/2 x alas x tinggi</p>
+            <p>Luas Segitiga =<span id="hasilLuas"></span></p>
+            
+            <div class="tombol">
+            <button onclick="hitungluas()" class="hitungreset htngbtn">Hitung</button>
+            <button onclick="clearall()" class="hitungreset rstbtn">Reset</button>
+            </div>
+
+    </section>
+    <section>
+        <div class="section-content">
+            <h2>Keliling Segitiga</h2>
+            </div><br>
+        <div class="formula-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQE0gftNfOH48FnRedPL1XDw-jNFoYC0oAc13zANyomQ&s" alt="gbrkelilingsegitiga">
+        </div>
+        <p>keterangan :</p>
+        <p>a = panjang sisi a</p>
+        <p>b = panjang sisi b</p>
+        <p>c = panjang sisi c </p>
+        <table>
+            <tr>
+                
+                <td><label for="sisiA">Panjang sisi a:</label></td>
+                <td><input id="sisiA"  type="number" placeholder="masukan nilai sisi A"></td>
+            </tr>
+            <tr>
+                <td><label for="sisiB">Panjang sisi b:</label></td>
+                <td><input id="sisiB" type="number" placeholder="masukan nilai sisi B"></td>
+            </tr>
+            <tr>
+                <td><label for="sisiC">Panjang sisi c:</label></td>
+                <td><input id="sisiC" type="number" placeholder="masukan nilai sisi C"></td>
+            </tr>
+        
+        </table>
+        <p>Keliling Segitiga = panjang sisi a + panjang sisi b + panjang sisi c</p>
+        <p>Keliling Segitiga = <span id="hasilKell"></span></p>
+        
+        <div class="tombol">
+            <button onclick="hitungkel()" class="hitungreset htngbtn">Hitung</button>
+            <button onclick="clearall()" class="hitungreset rstbtn">Reset</button>
+        </div>
+             
+    </section>
+    <script src="js/javascrip.js"></script>
+    <footer>
+        <hr>
+        <div class="tombolHome">
+            <button>
+                <a href="#home">Kembali ke Atas</a>
+            </button>
+        </div>
+    </footer>
+</body>
+</html>
